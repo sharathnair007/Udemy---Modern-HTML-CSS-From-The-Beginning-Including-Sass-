@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- the below link has been taken from fonts.google.com -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* font-family is mostly used which are browser safe(meaning which all the browsers have pre-installed.) */
+
+      /* When the font is imported we have to give the font-name in Roboto */
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 1.6em;
+      }
+
+      /* The below syntax is to be used if we want to target a specific
+            element inside an id.
+            There are many different units used for css properties, but the most common one is px.
+        */
+
+      #welcome p span {
+        font-weight: bold;
+      }
+
+      #about p span {
+        font-style: italic;
+      }
+    </style>
+    <title>Fonts</title>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-heading">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet
+        <span>
+          consectetur adipisicing elit. Consequatur provident harum dignissimos
+        </span>
+        facere fugit quo ab repellat dolorem debitis quis.
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi expedita
+        quo amet id impedit
+        <span>dolore magnam laudantium voluptates cupiditate alias!</span>
+      </p>
+    </div>
+  </body>
+</html>
