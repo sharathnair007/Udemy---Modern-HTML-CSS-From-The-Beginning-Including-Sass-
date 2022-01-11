@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS Reset: Used for resetting all the values */
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .box {
+            background: lightgrey;
+            border: 2px #777 solid;
+            width: 500px;
+
+            /* Important Note: When using padding property along with width it gets added and the total size becomes the addition of both, in this case the box will have a wifth of 500+20. So if we want to restrict this we can use box-sizing property to recitfy that*/
+            
+            /* Padding on all sides */
+            padding: 20px;
+
+            /* Padding per side */
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+
+            /* Padding short hand = top, right, bottom, left*/
+            padding: 20px 10px 20px 10px;
+
+            /* Padding short hand = top/bottom right/left */
+            padding: 10px 20px;
+
+            /* Margin on all sides */
+            margin: 20px;
+
+            /* Margin per side */
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+
+            /* margin short hand = top, right, bottom, left*/
+            margin: 20px 10px 20px 10px;
+
+            /* margin short hand = top/bottom right/left */
+            margin: 10px 20px;
+
+        }
+
+        .box h3 {
+            padding-bottom: 10px;
+        }
+    </style>
+    <title>Box Model / Margin & Padding</title>
+</head>
+<body>
+    <div class="box">
+        <h3>Box 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, corporis in doloribus expedita pariatur ab eligendi? Ab nobis corporis eaque.</p>
+    </div>
+    <div class="box">
+        <h3>Box 2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, corporis in doloribus expedita pariatur ab eligendi? Ab nobis corporis eaque.</p>
+    </div>
+</body>
+</html>
