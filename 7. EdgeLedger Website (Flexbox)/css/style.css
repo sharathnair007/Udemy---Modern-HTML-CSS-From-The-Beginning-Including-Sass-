@@ -184,8 +184,21 @@ a {
     background: url('../img/people.jpg') no-repeat center center/cover;
 }
 
-#who .who-text .list li{
+#who .who-text .list li {
     list-style: none;
     padding: 0.5rem 0;
     border-bottom: 1px dotted #444;
+}
+
+
+/* Section: Clients */
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
 }
