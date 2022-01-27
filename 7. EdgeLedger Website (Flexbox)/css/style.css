@@ -93,6 +93,11 @@ a {
     color: #fff;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
 /* Navbar */
 
 #navbar {
@@ -201,4 +206,35 @@ a {
     display: block;
     margin: auto;
     width: 60%;
+}
+
+/* Section: Contact */
+
+
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .map {
+  flex: 1;
+}
+
+#contact .contact-form .form-group {
+  padding: 1rem
+}
+
+#contact .contact-form .form-group label{
+  display: block;
+}
+
+#contact .contact-form .form-group input,
+#contact .contact-form .form-group textarea{
+  width: 100%;
+  line-height: 2rem;
+}
+
+#contact .contact-form form input {
+  width: 100%;
+  /* line-height: 2rem; */
 }
